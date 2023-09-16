@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="ja" className={inter.className}>
       <body className="flex justify-center w-full">
-        <div className="w-[696px]">
+        <div className="lg:w-[696px] w-[360px]">
           <Header />
           <main>{children}</main>
         </div>
