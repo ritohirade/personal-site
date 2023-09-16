@@ -116,7 +116,7 @@ export default function Index() {
         登壇
       </div>
       {SPEAKER.map((item) => {
-        const marginBottomClass = "mb-[150px]";
+        const marginBottomClass = "mb-[120px]";
         return (
           <SectionContainer className={marginBottomClass}>
             <div className="text-lg">{item.name}</div>
