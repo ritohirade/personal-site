@@ -13,7 +13,7 @@ export const SKILLS = [
   { label: "CSS", level: 4 },
   { label: "JavaScript", level: 3 },
   { label: "TypeScript", level: 3 },
-  { label: "React", level: 3 },
+  { label: "React.js", level: 3 },
   { label: "C#", level: 2 },
   { label: "Next.js", level: 2 },
 ];
