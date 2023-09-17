@@ -1,4 +1,4 @@
-export const WORK = [
+const WORK = [
   {
     serviceName: "ReportAI",
     url: "https://reportai.jp",
@@ -27,3 +27,5 @@ export const WORK = [
     techStack: ["Node.js", "TypeScript", "AWS Lambda"],
   },
 ];
+
+export default WORK;

@@ -22,5 +22,8 @@
     "ecmaFeatures": {
       "jsx": true
     }
+  },
+  "rules": {
+    "react/function-component-definition": "off"
   }
 }

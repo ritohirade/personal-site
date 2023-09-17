@@ -1,3 +1,4 @@
+import React from "react";
 import { SiFacebook, SiGithub, SiLinkedin } from "react-icons/si";
 
 export const NAME = {

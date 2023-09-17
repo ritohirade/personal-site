@@ -1,4 +1,5 @@
-import { WORK } from "@/constants/showcase";
+import React from "react";
+import WORK from "@/constants/showcase";
 import { SectionContainer } from "@/components/sectionContainer";
 import Link from "next/link";
 

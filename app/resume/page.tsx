@@ -1,9 +1,9 @@
+import React from "react";
 import {
   AWARD,
   QUALIFICATION,
   SCHOOL,
   SPEAKER,
-  TITLE,
   WORK,
 } from "@/constants/resume";
 import { SectionContainer } from "@/components/sectionContainer";
