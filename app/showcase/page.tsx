@@ -13,7 +13,7 @@ export default function Index() {
         const marginBottomClass = isLastItem ? "mb-[120px]" : "";
         const combinedClass = `${marginTopClass} ${marginBottomClass}`.trim();
         return (
-          <SectionContainer className={combinedClass}>
+          <SectionContainer className={combinedClass} key={item.serviceName}>
             <div className="text-lg">{item.serviceName}</div>
             <Link
               className="text-sm text-custom-gray mt-2 underline"
@@ -24,6 +24,19 @@ export default function Index() {
               {item.url}
             </Link>
             <div className="text-sm mt-2">{item.description}</div>
+            {item.code && (
+              <Link
+                key={item.code}
+                className="text-sm text-white mt-2 underline"
+                href={item.code}
+                target={item.code?.startsWith("https://") ? "_blank" : "_self"}
+                rel={
+                  item.code?.startsWith("https://") ? "noreferrer" : undefined
+                }
+              >
+                {item.code}
+              </Link>
+            )}
             {item.techStack && (
               <div className="text-sm font-bold mt-2">技術スタック</div>
             )}

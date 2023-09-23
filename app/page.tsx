@@ -17,16 +17,15 @@ export default function Home() {
       <SectionContainer className="">
         <div className="space-y-1.5">
           {SKILLS.map((item) => (
-            <div className="flex">
-              <div key={item.label} className="text-sm w-24">
-                {item.label}
-              </div>
+            <div className="flex" key={item.label}>
+              <div className="text-sm w-24">{item.label}</div>
               <div className="flex items-center">
                 {[...Array(5)].map((_, index) => (
                   <div
                     className={`w-4 h-4 rounded-full mr-1 ${
                       index < item.level ? "bg-white" : "bg-skills-gray"
                     }`}
+                    key={item.level}
                   />
                 ))}
               </div>

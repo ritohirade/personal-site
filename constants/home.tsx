@@ -15,8 +15,8 @@ export const SKILLS = [
   { label: "JavaScript", level: 3 },
   { label: "TypeScript", level: 3 },
   { label: "React.js", level: 3 },
-  { label: "C#", level: 2 },
   { label: "Next.js", level: 2 },
+  { label: "C#", level: 1 },
 ];
 
 export const SNS = [

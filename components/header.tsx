@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { HEADER_MENU } from "../constants/header";
-import LangSelect from "./langSelect";
+// import LangSelect from "./langSelect";
 import MobileMenu from "./mobileMenu";
 
 const Header: React.FC = () => (
@@ -16,7 +16,7 @@ const Header: React.FC = () => (
     <div className="lg:hidden relative">
       <MobileMenu />
     </div>
-    <LangSelect />
+    {/* <LangSelect /> */}
   </header>
 );
 

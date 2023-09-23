@@ -13,13 +13,6 @@ import Link from "next/link";
 export default function Index() {
   return (
     <>
-      {/* {TITLE.map((item) => {
-        return (
-          <Scroll to={item.en} key={item.en}>
-            {item.jp}
-          </Scroll>
-        );
-      })} */}
       <div id="Work" className="text-xl mb-3">
         職歴
       </div>
@@ -29,7 +22,7 @@ export default function Index() {
         }
         const marginTopClass = index > 0 ? "mt-4" : "";
         return (
-          <SectionContainer className={marginTopClass}>
+          <SectionContainer className={marginTopClass} key={item.companyName}>
             <div className="flex justify-between">
               <div>
                 <div className="text-lg">{item.companyName}</div>
@@ -68,7 +61,7 @@ export default function Index() {
       {SCHOOL.map((item, index) => {
         const marginTopClass = index > 0 ? "mt-4" : "";
         return (
-          <SectionContainer className={marginTopClass}>
+          <SectionContainer className={marginTopClass} key={item.name}>
             <div className="text-lg">{item.name}</div>
             <div className="text-sm text-custom-gray mt-2">{item.bechelor}</div>
             <div className="text-sm text-custom-gray mt-0.5">{item.period}</div>
@@ -81,7 +74,7 @@ export default function Index() {
       {QUALIFICATION.map((item, index) => {
         const marginTopClass = index > 0 ? "mt-4" : "";
         return (
-          <SectionContainer className={marginTopClass}>
+          <SectionContainer className={marginTopClass} key={item.name}>
             <div className="text-lg">{item.name}</div>
             <div className="text-sm text-custom-gray mt-2">{item.date}</div>
             {item.url && (
@@ -105,7 +98,7 @@ export default function Index() {
       {AWARD.map((item, index) => {
         const marginTopClass = index > 0 ? "mt-4" : "";
         return (
-          <SectionContainer className={marginTopClass}>
+          <SectionContainer className={marginTopClass} key={item.name}>
             <div className="text-lg">{item.name}</div>
             <div className="text-sm text-custom-gray mt-2">{item.date}</div>
             <div className="text-sm mt-0.5">{item.description}</div>
@@ -118,7 +111,7 @@ export default function Index() {
       {SPEAKER.map((item) => {
         const marginBottomClass = "mb-[120px]";
         return (
-          <SectionContainer className={marginBottomClass}>
+          <SectionContainer className={marginBottomClass} key={item.name}>
             <div className="text-lg">{item.name}</div>
             <div className="text-sm text-custom-gray mt-2">{item.date}</div>
             <div className="text-sm mt-0.5">{item.description}</div>

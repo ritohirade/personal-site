@@ -7,9 +7,11 @@ type SectionContainerProps = {
 
 export const SectionContainer: React.FC<SectionContainerProps> = ({
   children,
-  className = "",
+  className,
 }) => (
-  <div className={`bg-custom-gray p-6 rounded-lg ${className}`}>{children}</div>
+  <div className={`bg-custom-gray p-6 rounded-lg ${className}`} key={className}>
+    {children}
+  </div>
 );
 
 export default SectionContainer;
