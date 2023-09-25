@@ -13,7 +13,7 @@ import Link from "next/link";
 export default function Index() {
   return (
     <>
-      <div id="Work" className="text-xl mb-3">
+      <div id="Work" className="text-xl mt-3 mb-5">
         職歴
       </div>
       {WORK.map((item, index) => {

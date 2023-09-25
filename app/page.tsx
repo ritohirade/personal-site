@@ -5,8 +5,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main>
-      <div className="mt-10 mb-7">
+    <div>
+      <div className="mt-4 lg:mt-9 mb-7">
         <div className="text-xl">{NAME.jp}</div>
         <div className="text-sm text-custom-gray mt-0.5">{NAME.eng}</div>
       </div>
@@ -43,12 +43,13 @@ export default function Home() {
               href={item.href}
               target={item.href?.startsWith("https://") ? "_blank" : "_self"}
               rel={item.href?.startsWith("https://") ? "noreferrer" : undefined}
+              aria-label={item.label}
             >
               {item.icon}
             </Link>
           ))}
         </div>
       </SectionContainer>
-    </main>
+    </div>
   );
 }

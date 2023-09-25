@@ -6,7 +6,9 @@ import Link from "next/link";
 export default function Index() {
   return (
     <>
-      <div className="mt-6 mb-11">プライベートで作ったものの紹介です。</div>
+      <div id="Work" className="text-xl mt-3 mb-5">
+        プライベート作品
+      </div>
       {WORK.map((item, index) => {
         const marginTopClass = index > 0 ? "mt-4" : "";
         const isLastItem = index === WORK.length - 1;

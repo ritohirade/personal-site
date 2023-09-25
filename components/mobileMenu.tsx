@@ -10,8 +10,17 @@ const MobileMenu: React.FC = () => {
 
   return (
     <div className="relative">
-      <button onClick={() => setMenuOpen((prev) => !prev)} type="button">
-        {menuOpen ? <BsXLg /> : <AiOutlineMenu />}
+      <button
+        onClick={() => setMenuOpen((prev) => !prev)}
+        type="button"
+        id="hamburger"
+        aria-label={menuOpen ? "Close menu" : "Open menu"}
+      >
+        {menuOpen ? (
+          <BsXLg className="h-6 w-6" />
+        ) : (
+          <AiOutlineMenu className="h-6 w-6" />
+        )}
       </button>
       {menuOpen && (
         <div className="absolute z-10 top-full w-48 rounded-md shadow-lg bg-white">
