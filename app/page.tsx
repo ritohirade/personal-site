@@ -33,7 +33,7 @@ export default function Home() {
         </div>
       </SectionContainer>
       <div className="mt-7 mb-2">SNS</div>
-      <SectionContainer className="">
+      <SectionContainer className="mb-[65px]">
         <div className="flex space-x-3">
           {SNS.map((item) => (
             <Link
