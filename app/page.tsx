@@ -25,7 +25,6 @@ export default function Home() {
                     className={`w-4 h-4 rounded-full mr-1 ${
                       index < item.level ? "bg-white" : "bg-skills-gray"
                     }`}
-                    key={item.level}
                   />
                 ))}
               </div>

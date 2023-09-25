@@ -7,7 +7,6 @@ import {
   WORK,
 } from "@/constants/resume";
 import { SectionContainer } from "@/components/sectionContainer";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Index() {
@@ -34,7 +33,7 @@ export default function Index() {
                 </div>
               </div>
               {item.image && (
-                <Image
+                <img
                   width={80}
                   height={80}
                   src={item.image}

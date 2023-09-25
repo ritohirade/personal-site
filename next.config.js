@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
-  output: "standalone",
+  output: "export",
 };
 
 module.exports = nextConfig;
