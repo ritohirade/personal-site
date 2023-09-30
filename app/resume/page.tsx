@@ -32,15 +32,6 @@ export default function Index() {
                   {item.period}
                 </div>
               </div>
-              {item.image && (
-                <img
-                  width={80}
-                  height={80}
-                  src={item.image}
-                  alt={item.companyName}
-                  className="hidden lg:block"
-                />
-              )}
             </div>
             <div className="mt-2 text-sm">{item.companyProf}</div>
             <div className="text-sm">{item.did}</div>

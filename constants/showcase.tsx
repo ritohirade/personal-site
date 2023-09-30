@@ -8,7 +8,7 @@ const WORK = [
   },
   {
     serviceName: "プロフィールサイト",
-    url: "https://ritohirade.com",
+    url: "https://www.ritohirade.com",
     description:
       "SSGで作成した個人紹介サイト。Next.js v13で導入されたApp Routerや、Github ActionsやS3を使用したデプロイ、CloudFrontによるCDNの配信などの技術を取り入れた。ソースコードを公開している。",
     code: "https://github.com/ritohirade/personal-site",

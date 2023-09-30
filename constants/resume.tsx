@@ -11,7 +11,6 @@ export const WORK = [
     companyName: "アバナード株式会社",
     jobTitle: "Software Engineer",
     period: "2022.04 - 現在",
-    image: "/ava-logo.png",
     companyProf:
       "マイクロソフトとアクセンチュアの合弁会社として設立された企業。",
     did: "技術検証・プロトタイプ作成や、システムの設計から開発を担当。システム設計では、クライアントフェイシングなどを通してAPI・バッチ・画面の設計を行なった。開発では、自ら設計したAPIや画面の開発を行なっている。",
@@ -24,7 +23,6 @@ export const WORK = [
     companyName: "株式会社LayerX",
     jobTitle: "Marketing, CS Engineer (Internship)",
     period: "2021.09 - 2022.02",
-    image: "/lx-logo.png",
     companyProf:
       "2018年に創業されたSaaSや、Fintechのプロダクトの運営をしているスタートアップ企業。",
     did: "各種toBマーケティング施策や、ブランドリニューアルプロジェクト、アプリケーション改善施策を担当した。",
@@ -34,7 +32,6 @@ export const WORK = [
     companyName: "トリコ株式会社",
     jobTitle: "Product Manager (Internship)",
     period: "2020.07-2021.08",
-    image: "/tricot-logo.png",
     companyProf:
       "2018年に創業された美容系のブランドを運営しているスタートアップ企業。2021年にポーラ・オルビスホールディングスにグループイン。",
     did: "Product Managerとして、ABテストや新規プロダクトとなるパーソナルプロテインの立ち上げの責任者を担当した。具体的には、スケジュール管理や、Webの仕様策定、エンジニア・デザイナーなどとのコミュニケーション、同梱物の仕様策定などを行なった。",
@@ -57,13 +54,13 @@ export const SCHOOL = [
 export const QUALIFICATION = [
   {
     name: "Microsoft Certified: DevOps Engineer Expert",
-    date: "Bachelor of Arts and Science, International/Global Studies",
-    url: "https://learn.microsoft.com/api/credentials/share/ja-jp/ritohirade/247D9FC559B89DA6?sharingId=497692FE07D5279D",
+    date: "2023.07",
+    url: "https://learn.microsoft.com/ja-jp/users/ritohirade/credentials/247d9fc559b89da6",
   },
   {
     name: "Microsoft Certified: Azure Developer Associate",
     date: "2022.12",
-    url: "https://learn.microsoft.com/api/credentials/share/ja-jp/ritohirade/A7B07BBB1A24DDD7?sharingId=497692FE07D5279D",
+    url: "https://learn.microsoft.com/ja-jp/users/ritohirade/credentials/a7b07bbb1a24ddd7",
   },
   {
     name: "Microsoft Certified: Azure Fundamentals",
