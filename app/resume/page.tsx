@@ -34,7 +34,7 @@ export default function Index() {
               </div>
             </div>
             <div className="mt-2 text-sm">{item.companyProf}</div>
-            <div className="text-sm">{item.did}</div>
+            <div className="mt-2 text-sm whitespace-pre-line">{item.did}</div>
             {item.techStack && (
               <div className="text-sm font-bold mt-2">技術スタック</div>
             )}

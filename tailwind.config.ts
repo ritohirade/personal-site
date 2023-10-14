@@ -20,6 +20,9 @@ const config: Config = {
       textColor: {
         "custom-gray": "#8B8B8B",
       },
+      whitespace: {
+        "pre-line": "pre-line",
+      },
     },
   },
   plugins: [],
